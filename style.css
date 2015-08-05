@@ -1,5 +1,5 @@
 /*
-Theme Name: JS
+Theme Name: Dondertjes
 Theme URI: https://wordpress.org/themes/twentythirteen/
 Author: the WordPress team
 Author URI: https://wordpress.org/
@@ -3291,4 +3291,7 @@ a:active, a:hover{
 .col-centered{
   float: none !important;
   margin: 0 auto !important;
+}
+.site-header{
+    margin-top: -231px; /**/
 }

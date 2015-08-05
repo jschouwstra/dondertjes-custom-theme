@@ -45,7 +45,7 @@
 
     ?>
     <!-- Javascript -->
-    <script src="<?php echo get_template_directory_uri(); ?>/inc/bootstrap-assets/js/jquery-1.10.2.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/inc/bootstrap-assets/js/jquery-1.11.3.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/inc/wow-master/dist/wow.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/inc/bootstrap/js/bootstrap.js"></script>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/inc/bootstrap/css/bootstrap.css">
@@ -76,3 +76,4 @@
 		</header><!-- #masthead -->
 
 		<div id="main" class="site-main">
+			<?php get_template_part( 'portfolio');?>
